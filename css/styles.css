@@ -14,10 +14,9 @@
 }
 
 body {
-    background: var(--color-white);
-    font-family: 'Roboto';
-    font-size: 16px;
-    line-height: calc(24 / 16);
+    background-color: var(--color-white);
+    font-family: 'Roboto' sans-serif;
+    color: var(--color-slate);
 }
 .web {
     font-family: 'Raleway';
@@ -45,12 +44,19 @@ body {
     color: var(--color-navy-blue);
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: calc(24 / 16);
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+        color: var(--color-ocean);
 }
 .address-link {
     color: var(--color-slate);
-    font-weight: 400;
     letter-spacing: 0.02em;
+    line-height: calc(24 / 16);
+    font-style:normal ;
 }
+
 li {
     list-style: none;
 }
@@ -60,22 +66,23 @@ a {
 
 .address-link:hover,
 .address-link:focus {
-color: black;
+color: var(--color-ocean);
 }
 .button {
     font-weight: 500;
-    font: inherit;
+    font-family: 'Roboto';
     background-color: var(--color-iris);
     cursor: pointer;
     letter-spacing: 0.04em;
     color: var(--color-white);
     width: 169px;
     height: 56px;
+    line-height: calc(24 / 16);
 }
 .button:hover,
 .button:focus {
-    background: var(--color-white);
-    color: var(--color-iris) ;
+    background-color: var(--color-ocean);
+    color: var(--color-white);
 }
 .mission,
 .apps {
@@ -88,9 +95,9 @@ color: black;
 
 .mission-p,
 .apps-p {
-        font-weight: 400;
         letter-spacing: 0.02em;
         color: var(--color-slate);
+        line-height: calc(24 / 16);
 }
 footer {
     background-color: var(--color-navy-blue);
@@ -98,9 +105,9 @@ footer {
     height: 312px;
 }
 .footer-p {
-        font-weight: 400;
         letter-spacing: 0.02em;
         color: var(--color-cloud);
+        line-height: calc(24 / 16);
 }
 
 .studio-2 {
@@ -110,12 +117,9 @@ footer {
     color: var(--color-cloud);
 }
 .header-section {
-    background: var(--color-navy-blue);
-    width: 1310px;
-    height: 600px;
-}
+    background-color: var(--color-navy-blue);
+} 
 .header-main {
-        font-weight: 700;
         font-size: 56px;
         line-height: calc(60 / 56);
         letter-spacing: 0.02em;
@@ -124,7 +128,6 @@ footer {
 }
 
 .header2 {
-        font-weight: 700;
         font-size: 36px;
         line-height: calc(40 / 36);
         text-align: center;
@@ -143,4 +146,6 @@ footer {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+color: rgb(rgb(255, 255, 255), green, blue);
+line-height: calc(24 / 16);
 }
