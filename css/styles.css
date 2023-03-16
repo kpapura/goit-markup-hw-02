@@ -15,7 +15,7 @@
 
 body {
     background-color: var(--color-white);
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--color-slate);
 }
 .web {
@@ -146,6 +146,6 @@ footer {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-color: rgb(rgb(255, 255, 255), green, blue);
+color: hsl(0, 100%, 50%);
 line-height: calc(24 / 16);
 }
